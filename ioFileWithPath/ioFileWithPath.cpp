@@ -26,7 +26,7 @@ int main() {
 	outfile.close();
 
 	ifstream infile;
-	infile.open(NamaFile + ".txt");
+	infile.open(NamaFile, ios::in);
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
 	if (infile.is_open())
