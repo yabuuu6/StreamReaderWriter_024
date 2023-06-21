@@ -1,2 +1,2 @@
-data base
-hallo
+buka file
+ok
